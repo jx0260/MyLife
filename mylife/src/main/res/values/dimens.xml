@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="book_add_item_height">80dp</dimen>
+    <dimen name="tv_3char_width">80dp</dimen>
+
+    <dimen name="readlog_add_item_height">80dp</dimen>
+    <dimen name="readlog_add_item_height_double">160dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+</resources>

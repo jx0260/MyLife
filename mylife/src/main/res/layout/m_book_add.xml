@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="2"
+    >
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/book_add_item_height" >
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="@dimen/tv_3char_width"
+            android:gravity="center"
+            android:id="@+id/bookadd_tv_chineseName"
+            android:text="中文名"
+            android:textSize="18sp"
+            android:layout_column="0" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bookadd_edit_chineseName"
+            android:layout_column="1"
+            android:layout_span="2"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/book_add_item_height">
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="@dimen/tv_3char_width"
+            android:gravity="center"
+            android:id="@+id/bookadd_tv_name"
+            android:text="原书名"
+            android:textSize="18sp"
+            android:layout_column="0" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bookadd_edit_name"
+            android:layout_span="2"
+            android:layout_column="1" />
+
+    </TableRow>
+
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/book_add_item_height" >
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="@dimen/tv_3char_width"
+            android:gravity="center"
+            android:id="@+id/bookadd_tv_author"
+            android:text="作者"
+            android:textSize="18sp"
+            android:layout_column="0" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bookadd_edit_author"
+            android:layout_column="1"
+            android:layout_span="2"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/book_add_item_height" >
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="@dimen/tv_3char_width"
+            android:gravity="center"
+            android:id="@+id/bookadd_tv_publisher"
+            android:text="出版社"
+            android:textSize="18sp"
+            android:layout_column="0" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bookadd_edit_publisher"
+            android:layout_column="1"
+            android:layout_span="2"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/book_add_item_height" >
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="@dimen/tv_3char_width"
+            android:gravity="center"
+            android:id="@+id/bookadd_tv_isbn"
+            android:text="ISBN"
+            android:textSize="18sp"
+            android:layout_column="0" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bookadd_edit_isbn"
+            android:layout_column="1"
+            android:layout_span="2"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/book_add_item_height" >
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="@dimen/tv_3char_width"
+            android:gravity="center"
+            android:id="@+id/bookadd_tv_cover"
+            android:text="封面"
+            android:textSize="18sp"
+            android:layout_column="0" />
+        <Button 
+            android:id="@+id/bookadd_btn_takePhoto"
+            android:text="拍照"
+            android:layout_column="1"
+            />
+        <Button
+            android:id="@+id/bookadd_btn_choosePic"
+            android:text="选择"
+            android:layout_column="2"
+            />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/book_add_item_height" >
+
+        <ImageView 
+            android:id="@+id/bookadd_iv_cover"
+            android:layout_width="160dp"
+            android:layout_height="222dp"
+            android:layout_column="1"
+            />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/book_add_item_height" >
+
+        <Button
+            android:id="@+id/bookadd_btn_save"
+            android:text="保存"
+            android:layout_column="2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+</TableLayout>

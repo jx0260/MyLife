@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimaryDark"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:title="新增阅迹"
+        />
+
+    <TableLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/readlog_add_item_height">
+
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="@dimen/tv_3char_width"
+                android:gravity="center"
+                android:id="@+id/readlogadd_tv_name"
+                android:text="书名 *"
+                android:textSize="18sp"
+                android:layout_column="0" />
+
+            <EditText
+                android:id="@+id/readlogadd_edit_bookId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_span="2"
+                android:layout_column="1"
+                android:editable="false"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/readlog_add_item_height">
+
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="@dimen/tv_3char_width"
+                android:gravity="center"
+                android:id="@+id/readlogadd_tv_date"
+                android:text="日期 *"
+                android:textSize="18sp"
+                android:layout_column="0" />
+
+            <EditText
+                android:id="@+id/readlogadd_edit_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_span="2"
+                android:layout_column="1"
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/readlog_add_item_height">
+
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="@dimen/tv_3char_width"
+                android:gravity="center"
+                android:id="@+id/readlogadd_tv_minute"
+                android:text="时长 *"
+                android:textSize="18sp"
+                android:layout_column="0" />
+
+            <EditText
+                android:id="@+id/readlogadd_edit_minute"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_span="2"
+                android:layout_column="1"
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/readlog_add_item_height">
+
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="@dimen/tv_3char_width"
+                android:gravity="center"
+                android:id="@+id/readlogadd_tv_startpage"
+                android:text="开始页"
+                android:textSize="18sp"
+                android:layout_column="0" />
+
+            <EditText
+                android:id="@+id/readlogadd_edit_startpage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_span="2"
+                android:layout_column="1"
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/readlog_add_item_height">
+
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="@dimen/tv_3char_width"
+                android:gravity="center"
+                android:id="@+id/readlogadd_tv_endpage"
+                android:text="结束页"
+                android:textSize="18sp"
+                android:layout_column="0" />
+
+            <EditText
+                android:id="@+id/readlogadd_edit_endpage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_span="2"
+                android:layout_column="1"
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/readlog_add_item_height">
+
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="@dimen/tv_3char_width"
+                android:gravity="center"
+                android:id="@+id/readlogadd_tv_onecomment"
+                android:text="感悟 *"
+                android:textSize="18sp"
+                android:layout_column="0" />
+
+            <EditText
+                android:id="@+id/readlogadd_edit_onecomment"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/readlog_add_item_height"
+                android:layout_span="2"
+                android:layout_column="1"
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/readlog_add_item_height" >
+            <View
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_column="1"
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/readlog_add_item_height" >
+
+            <Button
+                android:id="@+id/bookadd_btn_save"
+                android:text="保存"
+                android:layout_column="2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"/>
+        </TableRow>
+
+    </TableLayout>
+</LinearLayout>
+
+
+

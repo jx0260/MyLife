@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">阅迹</string>
+    <string name="action_settings">设置</string>
+
+    <string name="action_new_book">新增图书</string>
+    <string name="action_new_readlog">新增阅读记录</string>
+    <string name="title_activity_progress_bar_test">ProgressBarTestActivity</string>
+</resources>

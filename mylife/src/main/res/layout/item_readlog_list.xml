@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/readlog_list_book_name_tv"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="王阿里旺"/>
+
+    <TextView
+        android:id="@+id/readlog_list_date_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/readlog_list_book_name_tv"
+        android:text="2015年6月15日"/>
+
+    <TextView
+        android:id="@+id/readlog_list_minute_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/readlog_list_date_tv"
+        android:text="100分钟"
+        />
+
+    <TextView
+        android:id="@+id/readlog_list_page_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/readlog_list_date_tv"
+        android:layout_toRightOf="@+id/readlog_list_minute_tv"
+        android:layout_marginLeft="10dp"
+        android:text="50pg~100pg"
+        />
+
+    <TextView
+        android:id="@+id/readlog_list_onecomment_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/readlog_list_minute_tv"
+        android:text="中华人民共和国夺中华人民共和国夺中华人民共和国夺中华人民共和国夺"/>
+
+
+
+</RelativeLayout>
